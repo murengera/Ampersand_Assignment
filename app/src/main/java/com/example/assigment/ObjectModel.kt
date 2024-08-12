@@ -6,7 +6,7 @@ import android.os.Parcelable
 data class ObjectModel(
     val id: String,
     val name: String,
-    val data: ObjectData? // Make sure this is nullable to handle cases where `data` might be `null`
+    val data: ObjectData?
 ) : Parcelable {
 
     data class ObjectData(
