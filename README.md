@@ -28,7 +28,7 @@ This is a simple Android app that displays a list of products and allows users t
    ```bash
    git clone <repository-url>
    ```
-2. Open the project in Android Studio:
+2. pen the project in Android Studio:
     - Open Android Studio and select "Open an existing project."
     - Navigate to the cloned repository and select the project folder.
 
@@ -53,6 +53,7 @@ This is a simple Android app that displays a list of products and allows users t
 - ConstraintLayout: Used to create flexible and responsive layouts.
 - ListView: Used to display the list of products.
 - Toolbar: Used to display the app bar with the title and back navigation.
+- retrofit:Used to Retrieve the data from api
 
 ## Design Decisions
 - ConstraintLayout:Chosen for its flexibility and ability to create complex layouts with ease.
